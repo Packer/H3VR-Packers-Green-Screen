@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb9ca90819b143909ef3b06721bb54cc, type: 3}
+  m_Name: BuildProfile
+  m_EditorClassIdentifier: 
+  SceneFile: {fileID: 102900000, guid: 5b991516e8d4ef6479a0b6a839bac699, type: 3}
+  SceneName: PackersGreenScreen
+  GameMode: sandbox
+  DisplayMode: sandbox
+  Thumbnail: {fileID: 2800000, guid: 0c31cb4e484f07145a11fbca31b8b6d9, type: 3}
+  Author: Packer
+  Description: A simple greenscreen room for film makers
