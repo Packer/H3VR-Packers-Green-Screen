@@ -4,16 +4,11 @@ using UnityEngine;
 
 namespace Packer
 {
-    public class ScreenSet : MonoBehaviour
+    [System.Serializable]
+    public class ScreenSet
     {
         public Texture2D texture;
         public Color color = Color.white;
-
-
-        public void SetScreen()
-        {
-            GreenScreenManager.instance.SetScreen(this);
-        }
     }
 
 }
